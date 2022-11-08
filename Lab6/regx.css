@@ -1,0 +1,58 @@
+.container{
+    width: 90%;
+    align-content: center;
+    text-align: left;
+    margin: 40px;
+    font-family: sans-serif;
+}
+.email, .url{
+
+    margin: 40px;
+    font-size: 22px;
+    padding: 10px;
+}
+.password{
+    margin: 40px;
+     font-size: 25px;
+    padding: 10px;
+}
+.checkme{
+      margin: 40px;
+      font-size: 25px;
+      padding-left: 10px;
+}
+button{
+    width: 130px;
+    height: 40pt;
+    margin-top: 10px;
+    background-color: #45d94a;
+    font-size: 35px;
+    border-radius: 10px;
+}
+#em, #url{
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 10px;
+}
+#name{
+    
+}
+#ps{
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 10px;
+}
+#passwd{
+    
+}
+#sm11{
+     font-size: 20px;
+     color: #989898;
+     
+}

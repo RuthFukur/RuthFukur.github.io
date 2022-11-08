@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regular Expression</title>
+    <link href="regx.css" rel="stylesheet">
+</head>
+<body>
+    <!-- <label> Email address</label>
+    <input type="email" name="email", value="Enter Email">
+    <label> Password</label>
+    <input type="text" name="password" value="Password">
+    <label> Website URL</label>
+    <input type="url" name="url" value="Enter url">
+    <input type="checkbox" name="check me out" > 
+    <input type="submit">  -->
+
+
+
+    <form class="container">
+        <div class="email">
+
+            <label id="name">Email address </label> <br>
+
+            <input id="em" type="email" placeholder="Enter email" name="email" required>
+            <p id='sm11'> We'll never share your email with anyone else.</p>
+        </div>
+
+
+        <div class="password">
+
+            <label id="passwd">Password </label>
+            <input id="ps" type="password" placeholder="Password" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}" title="  Password field is at least 10 characters in length and contain at least one number and one uppercase and lowercase letter" required>
+        </div>
+
+        <div class="url">
+
+            <label id="url2">Website URL </label> <br>
+
+            <input id="url" type="url" placeholder="Enter url" name="url" pattern="https?://.+" title=" Website url must begin with either 'http://' OR 'https://' " required>
+        </div>
+
+
+
+        <div class="checkme">
+
+            <label><input type="checkbox" name="remember"> Check me out</label><br>
+            <button type="submit" onclick="index.html" >Submit</button>
+        </div>
+
+        <div id="validate">
+            <!--html validator-->
+            <a href="https://validator.w3.org/nu/?doc=https://ruthfukur.github.io/Lab6/RegEx.html">
+                <img src="/im2.png"  width="70" height="40"alt="html validator">
+
+            </a><br>
+
+            <!--css validator-->
+            <a href="http://jigsaw.w3.org/css-validator/validator?uri=https://ruthfukur.github.io/Lab6/regx.css">
+                <img src="/im1.png" alt="Valid CSS!" width="70" height="40"></a><br>
+
+               
+
+
+        </div>
+
+
+    </form>
+</body>
+</html>

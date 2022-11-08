@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Functional Programming</title>
+    <meta charset="utf-8">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+    <script>
+        // initialize mocha
+        mocha.setup('bdd');
+        // chai has a lot of stuff, let's make assert global
+        let assert = chai.assert;
+
+    </script>
+
+       <script src="javascript/code.js"></script>
+       <script src="javascript/test.js"></script>
+</head>
+
+<body>
+    <div id="mocha" style="border: 5px solid gray;" ></div>
+    <script>
+        mocha.run();
+
+    </script>
+
+<div id="validate">
+    <!--html validator-->
+    <a href="https://validator.w3.org/nu/?doc=https://ruthfukur.github.io/Lab6/index.html">
+        <img src="/im2.png"  width="70" height="40"alt="html validator">
+
+    </a><br>
+
+        <!--Javascript validator-->
+    <a href="http://mumstudents.org/jshint/check.php?uri=https://ruthfukur.github.io/Lab6/code.js">
+<img src="/w3c-jslint.png" alt="JavaScript Lint">
+    </a>
+     <!--Javascript validator-->
+     <a href="http://mumstudents.org/jshint/check.php?uri=https://ruthfukur.github.io/Lab6/test.js">
+        <img src="/w3c-jslint.png" alt="JavaScript Lint">
+            </a>
+
+
+</div>
+</body>
+
+</html>
