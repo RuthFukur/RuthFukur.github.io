@@ -1,0 +1,45 @@
+
+#myForm{
+    border: 3px solid gray;
+    width: 25%;
+    margin-top: 30%;
+    padding-left: 2%;
+    padding: 1%;
+    position: fixed;
+    background-color: lavender;
+    /*color: lightblue;*/
+}
+
+#submit{
+    width: 100px;
+    background: deepskyblue;
+    border-radius: 10px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+#container {
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+}
+
+.circles {
+position: absolute;
+border-radius: 50%;
+}
+
+.circles:hover {
+    opacity: 0.7;
+}
+
+#validate{
+   /*margin-bottom: 0%;*/
+   position: fixed;
+   margin-top: 49%;
+   padding-left: 2%;
+}
